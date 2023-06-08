@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="https://beta.caymanchef.com/cdn/assets/css/main.css?v=1686038342">
+    <link rel="icon" href="https://beta.caymanchef.com/cdn/assets/images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="https://beta.caymanchef.com/cdn/assets/images/favicon/android-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="https://beta.caymanchef.com/cdn/assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76"
+        href="https://beta.caymanchef.com/cdn/assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="32x32"
+        href="https://beta.caymanchef.com/cdn/assets/images/favicon/favicon-57x57.png">
+    <link href="https://beta.caymanchef.com/cdn/resources/css/country_flag.css" rel="stylesheet" type="text/css">
+    <script src="https://beta.caymanchef.com/cdn/assets/js/jquery-3.6.1.min.js?v=1686038342"></script>
+    <script src="https://beta.caymanchef.com/cdn/assets/libraries/cookies/js/js.cookie.min.js?v=1686038342"></script>
+    <title>BIO</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background: url(IMG/inner_banner.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0, 0, 0, 0.5);
+}
+#chk1{
+    display: none;
+}
+i{
+    color: #fff;
+    cursor: pointer;
+    padding: 10px ;
+}
+header .logo{
+    flex: 1;
+    color: #fff;
+    margin-left: 50xp;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 15xp;
+}
+header ul li a:hover{
+    border-bottom: 2px solid cadetblue;
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+@media(max-width:1000px){
+    .search-box button{
+        position: absolute;
+    }
+    header ul{
+        position: fixed;
+        top: 100px;
+        right: -100%;
+        background: rgba(0, 0, 0, 0.5);
+        height: calc(100vh - 100px);
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.5s linear;
+    }
+    header .menu{
+        display: block;
+        width: 100px;
+        text-align: center;
+    }
+    #tra:checked ~ ul{
+        right: 0;
+    }
+}
+@media(max-width: 600px){
+    header .logo{
+        font-size: 10px;
+        margin-left: 8px;
+    }
+    header ul{
+        width: 100%;
+    }
+}
+.p1
+{
+    max-width: 421px;
+    font-size: 16px;
+    font-family: Visby;
+    letter-spacing: .32px;
+    color: #1a1a1a;
+    font-weight: 400;
+    line-height: 26px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="background"></div>
+        <div class="logo"><img src="IMG/dining-logo.PNG" alt=""></div>
+        </div>
+        <ul>
+            <li><a href="dining.html">Home</a></li>
+            <li><a href="BIO.HTML">Bio</a></li>
+            <li><a href="Rates & Services.html">Rate & services</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Review</a></li>
+
+         
+            <a href="#"><img src="IMG/email-9-svgrepo-com.svg" alt="" style="height:50px;"></a>
+            <a href="#"><img src="IMG/facebook-svgrepo-com.svg" alt="" style="height:50px;"></a>
+            <a href="#"><img src="IMG/icons8-instagram.svg" alt="" style="height:50px;"></a>
+            </li>
+        </ul>
+        
+
+    </header><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    <h1 class="text-white" style="margin:39px;">Bio</h1>
+    
+    <div class="section bg-white">
+        <div class="container"><br><br>
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="hh">About Us</h2>
+                    <h1 style="color: #1a1a1a;
+            font-size: 60px;
+            font-family: Italiana;
+            margin-bottom: 55px"> LET A PERSONAL CHEF<br> PREPARE YOUR NEXT MEAL
+
+                    </h1>
+                    <p class="p1">Get ready to experience the ultimate dining experience with Dining @ Home, Grand
+                        Cayman's most sought-after personal chef service. Our company has been tantalizing taste buds
+                        since 2008, when Chef Lloyd Brown pioneered the concept of private dining on the island. With
+                        the addition of Kerstin to our team, we've expanded our services to offer a full range of
+                        catering and bartending options for any occasion. From exclusive and intimate dinners to lavish
+                        celebrations, Dining @ Home has got you covered. Our expert chefs and dedicated team will ensure
+                        that your event is nothing short of spectacular. So why settle for ordinary when you can have
+                        extraordinary?<a href="#" style="color: #eaae21;">Book your Dining @ Home experience today!</p>
+                    </a>
+
+                    <div>
+                        <br> <a href="#" title="Hire Us" class="ac-btn-primary btn-black">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6"><br><br><br><br>
+                    <img src="IMG/img7.png" alt="" style="height: 570px; width:450">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" style="background-color: #474747;">
+        <div class="container"><br><br>
+            <h3 class="text-center" style="color:#eaae21">Amazing Team</h3>
+            <h1 class="text-white text-center">Meet Our Team</h1>
+            <div class="row">
+                <div class="col-6"><br>
+
+                    <img src="IMG/img8.png" alt="">
+                    <h4 class="text-center text-white nqtitle">Kerstin Nickchen</h3>
+                        <p class="text-center text-white">Owner and Event Coordinator</p>
+                </div>
+                <div class="col-6"><br>
+
+                    <img src="IMG/img9.png" alt="">
+                    <h4 class="nqtitle text-center text-white">Lloyd Brown</h4>
+                    <p class="text-center text-white">Owner and Event Coordinator</p>
+                </div>
+            </div>
+
+        </div>
+    </div><br>
+    <div class="section" style="background-color: #474747;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3 style="font-family: visby;">Get in Touch</h3><br>
+                    <a href="#" style="font-family: visby;color: white;"><img src="IMG/email-9-svgrepo-com.svg" alt=""
+                            style="height:15px;">: reservation@caymanchef.com </a><br><br>
+
+                    <a href="#" style="color:white"><img src="img/phone-call.svg" alt="" style="height:14px;">+1 (345)
+                        517 2377</a><br><br>
+                    <a href="#"><img src="IMG/email-9-svgrepo-com.svg" alt="" style="height:25px;"></a>
+                    <a href="#"><img src="IMG/facebook-svgrepo-com.svg" alt="" style="height:25px;"></a>
+                    <a href="#"><img src="IMG/icons8-instagram.svg" alt="" style="height:25px;"></a>
+                </div>
+                <div class="col-4">
+                    <h3>Locate us</h3><br>
+                    <a href="#" style="color: white; font-family: visby; font-size: 15px;"><img src="img/marker.svg" alt=""
+                            style="height:15px;">: 25 Dorcy Drive A6, PO BOX 32200, George Town
+                        Grand Cayman - KY1-1208</a><br><br>
+                    <a href="#" style="color:white; font-family:visby;"><img src="img/google-maps-icon-transparent-26.jpg" alt="" style="height: 19px;">:Get Direction</a>
+                </div>
+                <div class="col-4">
+                    <h3>Useful Links</h3>
+                    <a href="BIO.HTML" style="color: white; font-family: visby; font-size: 15px;">Bio</a><br><br>
+                    <a href="" style="color: white; font-family: visby; font-size: 15px;">Menu</a><br><br>
+                    <a href="" style="color: white; font-family: visby; font-size: 15px;">Privacy Policy</a><br><br>
+                    <a href="" style="color: white; font-family: visby; font-size: 15px;">Site Map</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom" style="background-color: #474747;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ftr-info d-flex justify-content-between align-items-center">
+                        <div class="copyright text-white">Copyright © 2023 Dining @ Home. All rights
+                            reserved.</div>
+                                                <div class="footer-list">
+                            <span class="craftedby text-white">Crafted By: <a href="#" target="_blank" rel="nofollow" title="Netclues!" class="designby"> <img src="https://beta.caymanchef.com/cdn/assets/images/netclues.png" alt="Dining @ Home" width="16" height="16"></a>
+                            </span>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

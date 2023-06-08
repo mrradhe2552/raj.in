@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background: url(IMG/banner2x11zon.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0, 0, 0, 0.5);
+}
+#chk1{
+    display: none;
+}
+i{
+    color: #fff;
+    cursor: pointer;
+    padding: 10px ;
+}
+header .logo{
+    flex: 1;
+    color: #fff;
+    margin-left: 50xp;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 15xp;
+}
+header ul li a:hover{
+    border-bottom: 2px solid cadetblue;
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+@media(max-width:1000px){
+    .search-box button{
+        position: absolute;
+    }
+    header ul{
+        position: fixed;
+        top: 100px;
+        right: -100%;
+        background: rgba(0, 0, 0, 0.5);
+        height: calc(100vh - 100px);
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.5s linear;
+    }
+    header .menu{
+        display: block;
+        width: 100px;
+        text-align: center;
+    }
+    #tra:checked ~ ul{
+        right: 0;
+    }
+}
+@media(max-width: 600px){
+    header .logo{
+        font-size: 10px;
+        margin-left: 8px;
+    }
+    header ul{
+        width: 100%;
+    }
+}
+.text{
+
+    font-size: 60px;
+    color: #fff;
+    line-height: 65px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 6px rgba(0,0,0,.0509803922);
+    text-transform: uppercase;
+    font-family: Italiana;
+    max-width: 620px;
+    z-index: 3;
+    margin-bottom: 234px;
+}
+.pp{
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .8px;
+    font-family: Visby;
+}
+.hh{
+        font-size: 20px;
+    color: #e9b947;
+    font-family: Visby;
+}
+.p1
+{
+    max-width: 421px;
+    font-size: 16px;
+    font-family: Visby;
+    letter-spacing: .32px;
+    color: #1a1a1a;
+    font-weight: 400;
+    line-height: 26px;
+}
+.h7{
+    font-size: 60px;
+    font-family: Italiana;
+    color:black;
+    text-align: center;
+}
